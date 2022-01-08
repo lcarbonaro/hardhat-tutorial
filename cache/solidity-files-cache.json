@@ -1,8 +1,43 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\lcarbonaro\\Desktop\\nodejs\\sandbox\\blockchain\\hardhat-tutorial\\contracts\\Token.sol": {
-      "lastModificationDate": 1639593852883,
+    "C:\\Users\\Les\\Desktop\\sandbox\\blockchain\\hardhat-tutorial\\contracts\\Counter.sol": {
+      "lastModificationDate": 1641614572776,
+      "contentHash": "00cfc8a11adc9fd4439a846e63904a6a",
+      "sourceName": "contracts/Counter.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Counter"
+      ]
+    },
+    "C:\\Users\\Les\\Desktop\\sandbox\\blockchain\\hardhat-tutorial\\contracts\\Token.sol": {
+      "lastModificationDate": 1641565926138,
       "contentHash": "0909bde5a718f37777c94e90adcee0bc",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {
